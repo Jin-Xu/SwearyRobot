@@ -19,4 +19,4 @@ jobs:
         pip install -r requirements.txt    
     - name: Lint Code Base
       run: |
-        pylint *.py
+        pylint swearyrobot/
